@@ -5,10 +5,15 @@
 }
 
 @import "./utils/fonts";
+@import "./utils/mixins";
 @import "./utils/variables";
 @import "./sections/section-1";
 
 body {
     font-family: "Poppins Regular";
     font-style: normal;
+
+    a{
+        text-decoration: none;
+    }
 }
