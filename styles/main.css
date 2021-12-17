@@ -239,6 +239,66 @@
   color: #888888;
 }
 
+.section2 {
+  width: 100%;
+  height: 100vh;
+  padding: 90px 200px;
+}
+
+.section2 h2 {
+  font-weight: "Poppins SemiBold";
+  font-size: 45px;
+  line-height: 140%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.section2 .div-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+}
+
+.section2 .div-box .box {
+  width: 270px;
+  height: 298px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 30px 80px rgba(102, 102, 102, 0.08);
+          box-shadow: 0px 30px 80px rgba(102, 102, 102, 0.08);
+  border-radius: 10px;
+  padding: 20px 38px 10px 17px;
+}
+
+.section2 .div-box .box h6 {
+  font-weight: "Poppins Medium";
+  font-size: 17px;
+  line-height: 42px;
+  letter-spacing: -0.656526px;
+  color: #444444;
+  padding: 20px 0 10px 0;
+}
+
+.section2 .div-box .box P {
+  font-weight: "Poppins Regular";
+  font-size: 15px;
+  line-height: 200%;
+  padding-bottom: 20px;
+}
+
+.section2 .div-box .box span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  color: #444444;
+}
+
 body {
   font-family: "Poppins Regular";
   font-style: normal;
