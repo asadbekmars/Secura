@@ -9,6 +9,7 @@
 @import "./utils/variables";
 @import "./sections/section-1";
 @import "./sections/section2";
+@import "./sections/section3";
 
 body {
     font-family: "Poppins Regular";
@@ -16,5 +17,17 @@ body {
 
     a{
         text-decoration: none;
+    }
+
+    h3{
+        font-weight:$fw-600;
+        font-size: 45px;
+        line-height: 140%;
+    }
+
+    p{
+        font-weight: $fw-400;
+        font-size: 15px;
+        line-height: 200%;
     }
 }

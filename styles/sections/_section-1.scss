@@ -2,7 +2,7 @@
     padding: 40px 375px 0 375px;
     
     @media (max-width: 1440px) {
-        padding: 40px 200px 0 200px;
+        padding: 40px 170px 0 170px;
     }
 
     header {
@@ -79,12 +79,23 @@
                 
             }
 
+            .btn-2:hover{
+                background: white;
+                color: $orange;
+                border: 1px solid $orange;
+            }
+
             .btn-3{
                 padding:17px 40px;
                 border: 1px solid $orange;
                 border-radius: 40px;
                 color: $mainBlack;
                 margin-left: 20px;
+            }
+
+            .btn-3:hover{
+                background: $orange;
+                color: white;
             }
         }//text-left
 
@@ -169,9 +180,6 @@
                 }
 
                 p{
-                    font-weight: $fw-600;
-                    font-size: 14px;
-                    line-height: 134%;
                     color: #888888;
                 }
             }

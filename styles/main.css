@@ -31,7 +31,7 @@
 
 @media (max-width: 1440px) {
   .section-1 {
-    padding: 40px 200px 0 200px;
+    padding: 40px 170px 0 170px;
   }
 }
 
@@ -129,12 +129,23 @@
   color: white;
 }
 
+.section-1 main .text-left .btn-2:hover {
+  background: white;
+  color: #FF7132;
+  border: 1px solid #FF7132;
+}
+
 .section-1 main .text-left .btn-3 {
   padding: 17px 40px;
   border: 1px solid #FF7132;
   border-radius: 40px;
   color: #444444;
   margin-left: 20px;
+}
+
+.section-1 main .text-left .btn-3:hover {
+  background: #FF7132;
+  color: white;
 }
 
 .section-1 main .img-container {
@@ -233,9 +244,6 @@
 }
 
 .section-1 main .battery .text p {
-  font-weight: "Poppins SemiBold";
-  font-size: 14px;
-  line-height: 134%;
   color: #888888;
 }
 
@@ -245,10 +253,7 @@
   padding: 90px 200px;
 }
 
-.section2 h2 {
-  font-weight: "Poppins SemiBold";
-  font-size: 45px;
-  line-height: 140%;
+.section2 h3 {
   text-align: center;
   padding-bottom: 50px;
 }
@@ -270,8 +275,7 @@
   width: 270px;
   height: 298px;
   background: #FFFFFF;
-  -webkit-box-shadow: 0px 30px 80px rgba(102, 102, 102, 0.08);
-          box-shadow: 0px 30px 80px rgba(102, 102, 102, 0.08);
+  border: 1px solid #EAE9F2;
   border-radius: 10px;
   padding: 20px 38px 10px 17px;
 }
@@ -286,9 +290,6 @@
 }
 
 .section2 .div-box .box P {
-  font-weight: "Poppins Regular";
-  font-size: 15px;
-  line-height: 200%;
   padding-bottom: 20px;
 }
 
@@ -299,6 +300,142 @@
   color: #444444;
 }
 
+.section2 .div-box .first {
+  border: none;
+  -webkit-box-shadow: 0px 30px 80px rgba(102, 102, 102, 0.08);
+          box-shadow: 0px 30px 80px rgba(102, 102, 102, 0.08);
+}
+
+.section3 {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 60px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 80px 170px;
+  position: relative;
+}
+
+.section3 .grey-div {
+  width: 450px;
+  height: 100vh;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  background: #F9F8F9;
+}
+
+.section3 .img-container {
+  position: relative;
+  width: 550px;
+  height: 100%;
+}
+
+.section3 .img-container .bg-yellow {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  width: 340px;
+}
+
+.section3 .img-container .control2 {
+  position: absolute;
+  top: 23%;
+  left: 13%;
+  width: 440px;
+}
+
+.section3 .img-container .yellow {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #FAD36C;
+}
+
+.section3 .img-container .green {
+  position: absolute;
+  bottom: -5%;
+  left: 15%;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #13CB73;
+}
+
+.section3 .img-container .blue {
+  position: absolute;
+  top: 50%;
+  right: 7%;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #8B6FFF;
+}
+
+.section3 .right-text h3 {
+  color: #444444;
+}
+
+.section3 .right-text p {
+  padding: 14px 0 20px 0;
+}
+
+.section3 .right-text .setting-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.section3 .right-text .setting-div .setting {
+  width: 380px;
+  height: 85.01px;
+  background: #FFFFFF;
+  border: 1px solid #EAE9F2;
+  border-radius: 15px;
+  padding: 20px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section3 .right-text .setting-div .setting .setting-box {
+  width: 56px;
+  height: 56.01px;
+  border-radius: 50%;
+  background: rgba(255, 113, 50, 0.2);
+  position: relative;
+}
+
+.section3 .right-text .setting-div .setting .setting-box img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.section3 .right-text .setting-div .first {
+  border: none;
+  -webkit-box-shadow: 0px 30px 80px rgba(102, 102, 102, 0.08);
+          box-shadow: 0px 30px 80px rgba(102, 102, 102, 0.08);
+}
+
 body {
   font-family: "Poppins Regular";
   font-style: normal;
@@ -306,5 +443,17 @@ body {
 
 body a {
   text-decoration: none;
+}
+
+body h3 {
+  font-weight: "Poppins SemiBold";
+  font-size: 45px;
+  line-height: 140%;
+}
+
+body p {
+  font-weight: "Poppins Regular";
+  font-size: 15px;
+  line-height: 200%;
 }
 /*# sourceMappingURL=main.css.map */

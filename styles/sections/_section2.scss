@@ -3,10 +3,7 @@
     height: 100vh;
     padding: 90px 200px;
 
-    h2{
-        font-weight:$fw-600;
-        font-size: 45px;
-        line-height: 140%;
+    h3{
         text-align: center;
         padding-bottom: 50px;
     }
@@ -17,7 +14,8 @@
             width: 270px;
             height: 298px;
             background: #FFFFFF;
-            box-shadow: 0px 30px 80px rgba(102, 102, 102, 0.08);
+            border: 1px solid #EAE9F2;
+           
             border-radius: 10px;
             padding: 20px 38px 10px 17px;
 
@@ -31,9 +29,6 @@
             }
 
             P{
-                font-weight: $fw-400;
-                font-size: 15px;
-                line-height: 200%;
                 padding-bottom: 20px;
             }
 
@@ -42,8 +37,12 @@
                 font-size: 14px;
                 line-height: 27px;
                 color: $mainBlack;
-                
             }
+        }
+
+        .first{
+            border: none;
+             box-shadow: 0px 30px 80px rgba(102, 102, 102, 0.08);
         }
     }
 }
