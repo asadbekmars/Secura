@@ -1,0 +1,66 @@
+footer{
+    @include display();
+    align-items: flex-start;
+    padding: 80px 270px;
+    margin-top: 200px;
+    background: rgba(249, 248, 249,0.4);
+
+    .left-div{
+
+        p{
+            padding: 10px 0 15px 0;
+        }
+
+        input{
+            width: 170px;
+            height: 40px;
+            background: rgba(255, 113, 50,0.1);
+            border-radius: 40px;
+            border: none;
+        }
+
+        button{
+            background: $orange;
+            border-radius: 40px;
+            padding: 9px 20px;
+            border: none;
+            color: white;
+            font-weight: $fw-500;
+            font-size: 13px;
+            line-height: 21px;
+            margin-left: 8px;
+        }
+        
+        .icons{
+            @include display(10px);
+            justify-content: flex-start;
+            margin-top: 20px;
+        }
+    }//left-div
+
+    .right-menu{
+        @include display(90px);
+        align-items: flex-start;
+
+        .a-div{
+            display: flex;
+            flex-direction: column;
+            gap:13px;
+
+            a{
+                color: rgba(32, 32, 32,0.4);
+            }
+
+            a:hover{
+                color: #202020;
+            }
+
+            .black{
+                font-weight:500;
+                font-size: 17px;
+                line-height: 24px;
+                color: #202020;
+            }
+        }
+    }
+}
