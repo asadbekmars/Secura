@@ -478,6 +478,7 @@
 
 .section4 .div-top .text-div p {
   text-align: start;
+  padding-top: 20px;
 }
 
 .section4 .div-top .text-div .btn {
@@ -615,6 +616,97 @@
   color: #888888;
 }
 
+.section6 {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 0px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 20px 0 100px 270px;
+}
+
+.section6 .big-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 80px;
+}
+
+.section6 .big-text p {
+  font-size: 20px;
+}
+
+.section6 .big-text .accordion-item {
+  width: 500px;
+  border: none;
+  border-top: 1px solid rgba(32, 32, 32, 0.2);
+}
+
+.section6 .img-right {
+  width: 370px;
+  height: 100vh;
+  background: #F9F8F9;
+  position: relative;
+}
+
+.section6 .img-right .bg-yellow {
+  width: 400px;
+  position: absolute;
+  top: 25%;
+  left: -35%;
+}
+
+.section6 .img-right .control3 {
+  width: 400px;
+  position: absolute;
+  top: 25%;
+  left: -35%;
+}
+
+.section6 .img-right .yellow {
+  position: absolute;
+  top: 40%;
+  left: -40%;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #FAD36C;
+}
+
+.section6 .img-right .green {
+  position: absolute;
+  bottom: 12%;
+  left: -17%;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #13CB73;
+}
+
+.section6 .img-right .blue {
+  position: absolute;
+  top: 40%;
+  right: 20%;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #8B6FFF;
+}
+
 body {
   font-family: "Poppins Regular";
   font-style: normal;
@@ -641,5 +733,9 @@ body p {
   font-weight: "Poppins Regular";
   font-size: 15px;
   line-height: 200%;
+}
+
+body section {
+  overflow: hidden;
 }
 /*# sourceMappingURL=main.css.map */

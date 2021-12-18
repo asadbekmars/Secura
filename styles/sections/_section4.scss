@@ -29,6 +29,7 @@
 
             p{
                 text-align: start;
+                padding-top: 20px;
             }
 
             .btn{
@@ -66,6 +67,6 @@
                 @include center();
                 width: 130px;
             }
-        }
+        }//video-div
     }
 }
