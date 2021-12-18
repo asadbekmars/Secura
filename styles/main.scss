@@ -10,6 +10,7 @@
 @import "./sections/section-1";
 @import "./sections/section2";
 @import "./sections/section3";
+@import "./sections/section4";
 
 body {
     font-family: "Poppins Regular";
@@ -23,6 +24,13 @@ body {
         font-weight:$fw-600;
         font-size: 45px;
         line-height: 140%;
+    }
+
+    h5{
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 134%;
+        color: $mainBlack;
     }
 
     p{
